@@ -21,15 +21,18 @@ body {
     display: flex;
     justify-content: center;
     flex-grow: 1;
+    align-items: center;
 }
 
 .left-content, .right-content {
     display: flex;
     flex-direction: column;
     width: 450px;
+    height: 700px;
     padding: 16px;
     margin: 0;
     gap: 16px;
+    justify-content: flex-start;
 }
 
 img {
