@@ -12,18 +12,30 @@ body {
     color: #fff;
     font-size: 60px;
     background-color: goldenrod;
-    padding: 16px;
+    
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 img {
     width: 350px;
     height: 350px;
     border: 1px solid black;
+    border-radius: 25%;
 }
 
 ul {
     list-style: none;
-    background-color: gold;
     display: flex;
     flex: 1 0 0;
     margin: 0;
@@ -42,5 +54,5 @@ a {
     color: #fff;
     font-size: 20px;
     width: 350px;
-    border: 1px solid black;
+    border: 1px solid black;  
 }
