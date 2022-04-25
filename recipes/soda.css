@@ -7,7 +7,7 @@ body {
     flex-direction: column;
 }
 
-.tittle {
+.title {
     color: #fff;
     font-size: 60px;
     background-color: goldenrod;
@@ -27,16 +27,18 @@ body {
 .left-content, .right-content {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 400px;
     height: 700px;
     padding: 16px;
-    margin: 0;
+    margin: 0 5px;
     gap: 16px;
     justify-content: flex-start;
+    border: 5px inset goldenrod
 }
 
 img {
     border: 1px inset black;
+    border-radius: 25%;
 }
 
 h3, h4 {
