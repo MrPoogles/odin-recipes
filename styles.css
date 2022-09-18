@@ -56,3 +56,10 @@ a {
     width: 350px;
     border: 1px solid black;  
 }
+
+.footer {
+  padding: 12px 0;
+  background-color: goldenrod;
+  color: white;
+  font-size: 18px;
+}
